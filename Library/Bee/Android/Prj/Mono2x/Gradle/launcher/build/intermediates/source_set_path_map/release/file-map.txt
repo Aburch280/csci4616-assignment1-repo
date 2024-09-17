@@ -1,0 +1,10 @@
+com.DefaultCompany.InClassTest.launcher-pngs-0 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
+com.DefaultCompany.InClassTest.launcher-resValues-1 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
+com.DefaultCompany.InClassTest.launcher-rs-2 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
+com.DefaultCompany.InClassTest.launcher-mergeReleaseResources-3 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.DefaultCompany.InClassTest.launcher-mergeReleaseResources-4 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.DefaultCompany.InClassTest.launcher-merged_res-5 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
+com.DefaultCompany.InClassTest.launcher-main-6 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
+com.DefaultCompany.InClassTest.launcher-release-7 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
+com.DefaultCompany.InClassTest.launcher-packaged_res-8 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release
+com.DefaultCompany.InClassTest.launcher-packaged_res-9 D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\packaged_res\release
