@@ -2,9 +2,14 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BulletLifespan
-    - DebugTMP
+    - DebugText
     - DestroyCube
+    - EnemyAI
+    - EnemyHealth
+    - EnemyShoot
+    - GameReset
     - PlayerShoot
+    - RayCasting
     - TimeFreeze
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
@@ -150,9 +155,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 464}
+      Script: {instanceID: 460}
     - Class: 114
-      Script: {instanceID: 16920}
+      Script: {instanceID: 16694}
+    - Class: 114
+      Script: {instanceID: 16918}
+    - Class: 114
+      Script: {instanceID: 17826}
     - Class: 114
       Script: {instanceID: 18024}
     - Class: 114
@@ -168,23 +177,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20206}
     - Class: 114
-      Script: {instanceID: 20626}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 20658}
+      Script: {instanceID: 20660}
     - Class: 114
-      Script: {instanceID: 20796}
+      Script: {instanceID: 20798}
     - Class: 114
-      Script: {instanceID: 21060}
+      Script: {instanceID: 20908}
     - Class: 114
-      Script: {instanceID: 21258}
+      Script: {instanceID: 21064}
     - Class: 114
-      Script: {instanceID: 21930}
+      Script: {instanceID: 21088}
     - Class: 114
-      Script: {instanceID: 25760}
+      Script: {instanceID: 21264}
     - Class: 114
-      Script: {instanceID: 25776}
+      Script: {instanceID: 21394}
     - Class: 114
-      Script: {instanceID: 28336}
+      Script: {instanceID: 21554}
+    - Class: 114
+      Script: {instanceID: 21698}
+    - Class: 114
+      Script: {instanceID: 21820}
+    - Class: 114
+      Script: {instanceID: 21946}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -192,6 +207,8 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -240,6 +257,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: TwoHandedGrabMoveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 50c60fcf70d0408c125b321fe3328018
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BulletLifespan
   - hash:
       serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
@@ -512,22 +535,28 @@ ScriptsOnlyBuild:
     className: HandMenu
   - hash:
       serializedVersion: 2
+      Hash: 6075d587ba2bd73fc6fcff55afe41e03
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyHealth
+  - hash:
+      serializedVersion: 2
       Hash: cd6a1b1edf067d8de34adb13e06e9cc8
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
     className: MicrosoftHandInteraction
   - hash:
       serializedVersion: 2
-      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
-    assemblyName: Unity.TextMeshPro
-    namespaceName: TMPro
-    className: TMP_SelectionCaret
-  - hash:
-      serializedVersion: 2
       Hash: 8c03d6ee69f5dc5ed9b56c1be75f5b62
     assemblyName: Unity.XR.CoreUtils
     namespaceName: Unity.XR.CoreUtils
     className: OnDestroyNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
       Hash: 28fd3d045acc780719a17f02073eb448
@@ -1112,6 +1141,12 @@ ScriptsOnlyBuild:
     className: ConformanceAutomationFeature
   - hash:
       serializedVersion: 2
+      Hash: bc9e5df4730dc2e3e91e4b81a4e8e6b1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameOver
+  - hash:
+      serializedVersion: 2
       Hash: 33656f83bb0079184b2206a69690ec46
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1250,10 +1285,10 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 257e87b000b69202e50b35c8af8a60a0
+      Hash: d5936d51166e88fd8a5d02007f542f7b
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: DebugTMP
+    className: DebugText
   - hash:
       serializedVersion: 2
       Hash: bc75926bfd3609757f7bf33ff766f026
@@ -1278,6 +1313,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 045da6c0d357ff3f8a6dfe63096415bc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyAI
   - hash:
       serializedVersion: 2
       Hash: fa91378f31c54029c3a0d70583208e48
@@ -1332,6 +1373,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cbdbd397f71cde68a5eb36ab221e5a80
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameReset
   - hash:
       serializedVersion: 2
       Hash: 5917642ace0eae93c20a9c11477d7477
@@ -1436,6 +1483,12 @@ ScriptsOnlyBuild:
     className: TextLog
   - hash:
       serializedVersion: 2
+      Hash: 07cace0fae7dd5e90ee12d4ffe63456f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyShoot
+  - hash:
+      serializedVersion: 2
       Hash: 830c3b545f6e6ee60a4cebab90516f2c
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -1490,6 +1543,12 @@ ScriptsOnlyBuild:
     className: QuaternionEulerAffordanceReceiver
   - hash:
       serializedVersion: 2
+      Hash: 6fab6b56fe464dfa385ad84bef53c468
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DestroyCube
+  - hash:
+      serializedVersion: 2
       Hash: e0a91173084bd8b8cce7e6e00e343381
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
@@ -1514,6 +1573,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: b7abd54562c5aef35eee3554521d287f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RayCasting
+  - hash:
+      serializedVersion: 2
       Hash: dbe80c9dc024d18e75107a0b4da06133
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
@@ -1536,6 +1601,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Transformation
     className: UniformTransformScaleAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: f8367ce122edfc8bdb19c645afdfeff9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TimeFreeze
   - hash:
       serializedVersion: 2
       Hash: 83447eb14ba5f9222c0f703aabb89c38
@@ -1670,22 +1741,10 @@ ScriptsOnlyBuild:
     className: TeleportationMultiAnchorVolume
   - hash:
       serializedVersion: 2
-      Hash: 6fab6b56fe464dfa385ad84bef53c468
+      Hash: a3f39cc82aebf64bd710bb8025e81826
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: DestroyCube
-  - hash:
-      serializedVersion: 2
-      Hash: f8367ce122edfc8bdb19c645afdfeff9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TimeFreeze
-  - hash:
-      serializedVersion: 2
-      Hash: 50c60fcf70d0408c125b321fe3328018
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BulletLifespan
+    className: BulletSpeed
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity

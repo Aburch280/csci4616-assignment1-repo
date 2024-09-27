@@ -3,7 +3,7 @@
     package="com.DefaultCompany.InClassTest"
     android:installLocation="preferExternal"
     android:versionCode="1"
-    android:versionName="0.1" >
+    android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="23"
@@ -19,6 +19,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature android:glEsVersion="0x00030000" />
+    <uses-feature
+        android:name="android.hardware.vulkan.version"
+        android:required="false" />
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
