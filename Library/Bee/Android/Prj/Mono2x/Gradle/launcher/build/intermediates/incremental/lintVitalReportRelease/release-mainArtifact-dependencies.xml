@@ -1,23 +1,23 @@
 <dependencies>
   <compile
-      roots="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+      roots="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
     <dependency
-        name="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        name="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
         simpleName="Gradle:unityLibrary"/>
   </compile>
   <package
-      roots="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:OVRPlugin:@aar,D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+      roots="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:OVRPlugin:@aar,D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
     <dependency
-        name="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        name="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
         simpleName="Gradle:unityLibrary"/>
     <dependency
-        name="__local_aars__:D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-        simpleName="__local_aars__:D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"/>
+        name="__local_aars__:D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"/>
     <dependency
         name=":OVRPlugin:@aar"
         simpleName=":OVRPlugin"/>
     <dependency
-        name="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        name="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
         simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
   </package>
 </dependencies>

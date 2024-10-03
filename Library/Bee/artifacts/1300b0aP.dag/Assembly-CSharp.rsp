@@ -327,6 +327,7 @@
 "Assets/Scripts/EnemyShoot.cs"
 "Assets/Scripts/GameOver.cs"
 "Assets/Scripts/GameReset.cs"
+"Assets/Scripts/GameStartManager.cs"
 "Assets/Scripts/HitScript.cs"
 "Assets/Scripts/PlayerShoots.cs"
 "Assets/Scripts/RayCasting.cs"

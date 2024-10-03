@@ -9,6 +9,7 @@ public class PlayerShoot : MonoBehaviour
     public float shootPower = 500;
 
     public InputActionReference trigger;
+    public AudioClip gunShotSFX;
 
     void Start()
     {
@@ -20,6 +21,8 @@ public class PlayerShoot : MonoBehaviour
         GameObject newBullet = Instantiate(BulletTemplate, transform.position, transform.rotation);
         newBullet.GetComponent<Rigidbody>().AddForce(transform.forward * shootPower);
 
-        Destroy(newBullet, 5);
+        GetComponent<AudioSource>().PlayOneShot(gunShotSFX);
+
+        // Destroy(newBullet, 5);
     }
 }

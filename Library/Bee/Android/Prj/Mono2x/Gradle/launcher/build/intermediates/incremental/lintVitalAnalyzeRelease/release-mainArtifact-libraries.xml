@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
-      jars="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\59d00583bd7647d385718e471a56884b\transformed\out\jars\classes.jar;D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\59d00583bd7647d385718e471a56884b\transformed\out\jars\libs\R.jar;D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\59d00583bd7647d385718e471a56884b\transformed\out\jars\libs\unity-classes.jar"
+      name="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+      jars="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\aeebed701e9f95bda44cb15c942c2037\transformed\out\jars\classes.jar;D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\aeebed701e9f95bda44cb15c942c2037\transformed\out\jars\libs\R.jar;D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\aeebed701e9f95bda44cb15c942c2037\transformed\out\jars\libs\unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
-      folder="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\59d00583bd7647d385718e471a56884b\transformed\out"
+      folder="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\aeebed701e9f95bda44cb15c942c2037\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,9 +13,9 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="__local_aars__:D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-      jars="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
-      resolved="__local_aars__:D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+      name="__local_aars__:D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
   <library
       name=":OVRPlugin:@aar"
       jars="C:\Users\aburc\.gradle\caches\transforms-3\e1d14f80a71d3bacb3f249a726f7e39f\transformed\jetified-OVRPlugin\jars\classes.jar"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
-      jars="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\eda5d6108da874aafd7d02964628aefc\transformed\out\jars\classes.jar;D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\eda5d6108da874aafd7d02964628aefc\transformed\out\jars\libs\R.jar"
+      name="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+      jars="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\646ee7a1dcb740ad120a876b32572c2b\transformed\out\jars\classes.jar;D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\646ee7a1dcb740ad120a876b32572c2b\transformed\out\jars\libs\R.jar"
       resolved="Gradle.unityLibrary:xrmanifest.androidlib:unspecified"
-      folder="D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\eda5d6108da874aafd7d02964628aefc\transformed\out"
+      folder="D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\646ee7a1dcb740ad120a876b32572c2b\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

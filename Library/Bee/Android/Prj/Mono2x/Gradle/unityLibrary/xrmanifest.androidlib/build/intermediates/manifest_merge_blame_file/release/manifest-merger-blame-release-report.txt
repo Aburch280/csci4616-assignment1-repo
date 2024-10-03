@@ -3,13 +3,13 @@
 3    package="com.UnityTechnologies.XR.Manifest" >
 4
 5    <uses-sdk android:minSdkVersion="1" />
-5-->D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
+5-->D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
 6
 7    <application>
-7-->D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:3:3-6:17
+7-->D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:3:3-6:17
 8        <activity android:name="com.unity3d.player.UnityPlayerActivity" >
-8-->D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:5-5:16
-8-->D:\aburc\UnityProject\InClassTest\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:15-68
+8-->D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:5-5:16
+8-->D:\aburc\UnityProject\OffProjectOne\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:15-68
 9        </activity>
 10    </application>
 11
